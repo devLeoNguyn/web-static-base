@@ -1,0 +1,328 @@
+body {
+    margin: 0;
+}
+
+.w100pt {
+    width: 100%;
+}
+
+section {
+    /* 2 thuoc tinh nay chi tham khao de tao khung layout khi xong thi xoa  */
+    float: left ;
+    width: 100%;
+  
+    margin: 20px auto;
+    min-height: 200px;
+    background-color: rgb(233, 233, 233)  
+}
+img {
+    display: block;
+}
+
+
+
+/* header */
+.row{
+    width: 100%;
+    float: left;
+}
+.primarybg{
+    background-color: #003b95;
+}
+.txtwhite{
+   color: #ffffff;
+}
+.head-1 {
+    width: 100%;
+    height: 40px;
+}
+.head-2 {
+    width: 100%;
+    background-color: #ffffff;
+    height: 120px;
+}
+.head-3 {
+    width: 100%;
+    height: 40px;
+}
+/* logo */
+.logo {
+    width: 20%;
+    float: left;
+    padding: 2%;
+}
+.logo a {
+    text-decoration: none ;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu {
+    float: right;
+    width: 54%;
+}
+ul li {
+    float: left;
+    padding: 2%;
+}
+
+ul li a {
+    text-decoration: none ;
+    color: #ffffff;
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* .menu2{
+    float: left;
+   
+} */
+.menu2 ul {
+    list-style-type: none;
+
+}
+.menu2 ul li {
+    float: left;
+    padding: 10px 10px;
+    border-radius: 20px;
+
+    outline-color: #ccc;
+    outline-style:solid;
+    margin: 25px 10px;
+}
+
+.menu2 ul li:hover {
+    transition: 0.5s;
+    border: 2px solid #ccc ;
+    box-shadow: 0px 0px 50px #026AAD;
+}
+
+
+/* menu */
+ul {
+    list-style-type: none;
+
+}
+
+
+/* header */
+/* banner */
+.banner img {
+    display: block;
+    width: 100%;
+    height: 600px;
+    /* khi co heght va co width thuong se su dung them  object-fit */
+    object-fit: cover;
+
+}
+/* banner */
+
+
+/* body */
+
+.container {
+    width: 1200px;
+    margin: 0 auto ;
+}
+
+.box {
+    width: calc(23.5% - 30px);
+    float: left;
+    border-radius: 10px;
+    padding: 10px;
+    border-color: rgb(127, 125, 125);
+
+    outline-color: #969696;
+    outline-style: solid;
+    outline-width: 3px;
+}
+.box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.box2 {
+    width: calc(19.2% - 30px);
+    float: left;
+    min-height: 150px;
+    border-radius: 20px;
+    padding: 10px;
+    border-color: rgb(127, 125, 125);
+    background-color: blueviolet   
+     ;
+}
+
+.box5 {
+    width: calc(48% - 30px);
+    float: left;
+    min-height: 70px;
+    border-radius: 20px;
+    padding: 10px;
+    border-color: rgb(127, 125, 125);
+    /* background-color: blueviolet    ; */
+}
+.box:hover,.box2:hover,.box5:hover {
+    transition: 0.5s;
+    border: 1px solid #ccc ;
+    box-shadow: 0px 0px 10px #003b95;
+}
+
+
+.mr2 {
+    margin-right: 2%;
+}
+.mr1 {
+    margin-right: 1%;
+}
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.paddtb {
+    padding: 15px 0;
+}
+.paddb {
+    padding-bottom: 15px;
+}
+
+
+.bgimg1 {
+    background-image: url(/images/destination-3.jpg);
+    background-size: 100%;
+}
+.bgimg2{
+    background-image: url(/images/destination-4.jpg);
+    background-size: 100%;
+}
+.bgimg3 {
+    background-image: url(/images/destination-5.jpg);
+    background-size: 100%;
+}
+.bgimg4 {
+    background-image: url(/images/destination-6.jpg);
+    background-size: 100%;
+}
+.bgimg5 {
+    background-image: url(/images/destination-2.jpg);
+    background-size: 100%;
+}
+.bgimg6 {
+    background-image: url(/images/gallery-4.jpg);
+    background-size: 100%;
+}
+.bgimg7 {
+    background-image: url(/images/gallery-1.jpg);
+    background-size: 100%;
+}
+.bgimg8 {
+    background-image: url(/images/gallery-2.jpg);
+    background-size: 100%;
+}
+.bgimg9 {
+    background-image: url(/images/gallery-3.jpg);
+    background-size: 100%;
+}
+.bgimg10 {
+    background-image: url(/images/gallery-5.jpg);
+    background-size: 170%;
+}
+.bgimg11 {
+    background-image: url(/images/gallery-6.jpg);
+    background-size: 165%;
+}
+
+
+.box2 a {
+    float: left;
+    margin-left:  10px ;
+    margin-top: 140px;
+    text-decoration: none ;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+/* body */
+
+
+
+
+/* footer */
+
+/* support */
+.column {
+    float: left; /* Sử dụng float để các cột nằm ngang */
+    width: 20%; /* Chia đều cột thành 5 cột, mỗi cột chiếm 20% */
+    padding: 10px;
+
+}
+
+.column h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.column ul li {
+    margin-bottom: 8px;
+}
+
+.column ul li a {
+    text-decoration: none;
+    color: #2f2d2d;
+    font-weight: normal;
+}
+
+/* ------ Footer ------*/
+
+footer {
+    background-color: #003b95;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    float: left;
+    
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+} 
+
+
+
+
