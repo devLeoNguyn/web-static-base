@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/signup.css"> <!-- Đường dẫn tới file CSS -->
+</head>
+<body>
+    <div class="container-signup">
+        <div class="container">
+            <h1>Đăng Ký</h1>
+            <form id="registerForm" action="/submit" method="POST"> <!-- action để xử lý khi submit -->
+                <!-- Thông tin cá nhân -->
+                <div class="form-group">
+                    <label for="name">Họ và tên:</label>
+                    <input type="text" id="name" name="name" class="form-control" required placeholder="Nhập họ và tên" minlength="3">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" class="form-control" required placeholder="Nhập email của bạn">
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Mật khẩu:</label>
+                    <div class="password-wrapper">
+                        <input type="password" id="password" name="password" class="form-control" required placeholder="Nhập mật khẩu" minlength="8">
+                        <span class="toggle-password">👁️</span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="confirm-password">Xác nhận mật khẩu:</label>
+                    <input type="password" id="confirm-password" name="confirm_password" class="form-control" required placeholder="Nhập lại mật khẩu" minlength="8" pattern=".{8,}">
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="form-button">Đăng Ký</button>
+                </div>
+
+                <!-- Nút quay lại trang đăng nhập -->
+                <div class="form-group">
+                    <button type="button" class="form-button secondary" onclick="window.location.href='login.html'">Quay lại trang đăng nhập</button>
+                </div>
+
+                <!-- Nút quay lại trang chủ -->
+                <div class="form-group">
+                    <button type="button" class="form-button secondary" onclick="window.location.href='../index.html'">Quay lại trang chủ</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

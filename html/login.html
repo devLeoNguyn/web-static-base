@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Nhập</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Đăng Nhập</h1>
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" class="form-control" required placeholder="Nhập email của bạn">
+            </div>
+
+            <div class="form-group">
+                <label for="password">Mật khẩu:</label>
+                <div class="password-wrapper">
+                    <input type="password" id="password" class="form-control" required placeholder="Nhập mật khẩu">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="form-button">Đăng Nhập</button>
+            </div>
+
+            <!-- Nút chuyển sang trang đăng ký -->
+            <div class="form-group">
+                <button type="button" class="form-button secondary" onclick="window.location.href='signup.html'">Chưa có tài khoản? Đăng Ký</button>
+            </div>
+
+            <!-- Nút quay lại trang chủ -->
+            <div class="form-group">
+                <button type="button" class="form-button secondary" onclick="window.location.href='../index.html'">Quay lại trang chủ</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

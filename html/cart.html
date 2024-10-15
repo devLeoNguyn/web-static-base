@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart | View Cart</title>
+    <link rel="stylesheet" href="../css/cart.css">
+</head>
+
+<body>
+    <div class="boxcenter">
+        <div class="row mb header">
+            <h1>BOOKING TRAVEL</h1>
+        </div>
+        <div class="row mb menu">
+            <ul>
+                <li><a href="../index.html">Trang chủ</a></li>
+                <li><a href="cart.html">Giỏ hàng</a></li>
+                <li><a href="#">Liên hệ</a></li>
+                <li><a href="#">Góp ý</a></li>
+                <li><a href="#">Hỏi đáp</a></li>
+            </ul>
+        </div>
+        <div class="row mb">
+            <div class="boxtrai mr">
+                <div class="row mb">
+                    <h1>GIỎ HÀNG</h1>
+                    <table id="cart-items">
+                        <thead>
+                            <tr>
+                                <th>Hình ảnh</th>
+                                <th>Tên sản phẩm</th>
+                                <th>Đơn giá ($)</th>
+                                <th>Số lượng</th>
+                                <th>Thành tiền ($)</th>
+                                <tr>
+                                    <td><img src="../images/destination-3.jpg" width="100"></td>
+                                    <td>Viet Nam</td>
+                                    <td>$10000</td>
+                                    <td>20</td>
+                                    <td>200000$</td>
+                                </tr>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Products will be dynamically added here -->
+                        </tbody>
+                    </table>
+                </div>
+                <div class="row mb">
+                    <h3>Tổng đơn hàng: <span id="total-price">0 $</span></h3>
+                    <button id="checkout" class="dongy">ĐỒNG Ý ĐẶT HÀNG</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb footer">
+            Copyright © 2021 - HOTB
+        </div>
+    </div>
+    <script src="../js/cart.js"></script>
+</body>
+
+</html>
